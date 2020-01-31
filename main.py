@@ -10,6 +10,8 @@ delay = '10' #seconds (time doesn't really matter)
 useProxies = True
 #----config----#
 
+
+print('если это вывелось, всё работает')
 time.sleep(1)
 
 print('Script Started')
