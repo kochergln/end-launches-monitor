@@ -5,15 +5,11 @@ from proxymanager import ProxyManager
 from logger import *
 
 #----config----#
-webhook = '' #slack or discord
+webhook = 'https://discordapp.com/api/webhooks/672887913813377054/TF9VDknFttxg31rR_eiVE_ktizJv8tLyTg5yJvwplgTFq80TLcOTrfLkN0JmxKZ_a2Vt' #slack or discord
 delay = '10' #seconds (time doesn't really matter)
 useProxies = True
 #----config----#
 
-print('\n###########################')
-print('###      END Monitor    ###')
-print('### Developed By @tfich ###')
-print('############################\n')
 time.sleep(1)
 
 print('Script Started')
